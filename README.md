@@ -1,7 +1,7 @@
 # Grafos1_Maze
 
 **Número da Lista**: 1<br>
-**Conteúdo da Disciplina**: Grafos 1s<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
 |Matrícula | Aluno |
