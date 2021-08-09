@@ -16,6 +16,10 @@ O usuário também consegue jogar após o labirinto ser percorrido.
 
 ## Screenshots
 
+![]('../../imgs/img1.png)
+![]('../../imgs/img2.png)
+![]('../../imgs/img3.png)
+
 ## Instalação 
 **Linguagem**: Javascript + HTML + CSS <br>
 
