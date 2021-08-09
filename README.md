@@ -1,44 +1,33 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Grafos1_Maze
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Grafos 1s<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 15/0129807  |  Ĩcaro Pereira de Oliveira |
+| 14/0058371  |  Augusto Moreno Vilarins |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Descreva os objetivos do seu projeto e como ele funciona.
+Esse projeto implementa um labirinto utilizando DFS para percorrê-lo. 
+O usuário também consegue jogar após o labirinto ser percorrido.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript + HTML + CSS <br>
+
+Clone o repositório e basta abrir o arquivo HTML em um navegador.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+Abra o arquivo, aguarde o labirinto ser percorrido e jogue se desejar. Para gerar outro labirinto
+basta atualizar a página.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+
 
 
 
