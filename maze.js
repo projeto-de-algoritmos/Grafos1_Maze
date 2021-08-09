@@ -42,6 +42,53 @@ class Cell {
     this.parentGrid = parentGrid;
     this.parentSize = parentSize;
   }
+  drawTopWall(x, y, size, columns, rows) {
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.lineTo(x + size / columns, y);
+    ctx.stroke();
+  }
+
+  drawRightWall(x, y, size, columns, rows) {
+    ctx.beginPath();
+    ctx.moveTo(x + size / columns, y);
+    ctx.lineTo(x + size / columns, y + size / rows);
+    ctx.stroke();
+  }
+
+  drawBottomWall(x, y, size, columns, rows) {
+    ctx.beginPath();
+    ctx.moveTo(x, y + size / rows);
+    ctx.lineTo(x + size / columns, y + size / rows);
+    ctx.stroke();
+  }
+
+  drawLeftWall(x, y, size, columns, rows) {
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.lineTo(x, y + size / rows);
+    ctx.stroke();
+  }
+  removeWalls(cell1, cell2) {
+    let x = cell1.colNum - cell2.colNum;
+    if (x === 1) {
+      cell1.walls.leftWall = false;
+      cell2.walls.rightWall = false;
+    } else if (x === -1) {
+      cell1.walls.rightWall = false;
+      cell2.walls.leftWall = false;
+    }
+
+    let y = cell1.rowNum - cell2.rowNum;
+    if (y === 1) {
+      cell1.walls.topWall = false;
+      cell2.walls.bottomWall = false;
+    } else if (y === -1) {
+      cell1.walls.bottomWall = false;
+      cell2.walls.topWall = false;
+    }
+  }
+
 }
 
 let newMaze = new Maze(300, 20, 10);
